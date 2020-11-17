@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>189</x>
+      <y>0</y>
+      <w>99</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Code Igniter
+--
+[Layout]
++ Bootstrap
+
+bg=yellow
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>423</x>
+      <y>207</y>
+      <w>135</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Controller
+--
+
+BaseController.php
+Login.php
+Dashboard.php
+Message.php
+Student.php
+Gradebook.php
+Teacher.php
+Report.php
+Account.php
+
+halign=left
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>162</y>
+      <w>81</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;70.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>81</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;100.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>315</x>
+      <y>90</y>
+      <w>90</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Route
+--
+
+[Controller]
++ Login.php
+
+bg=red
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>576</x>
+      <y>414</y>
+      <w>126</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>View
+--
+
+[dev]
++ login.php
++ dashboard.php
++ message.php
++ student.php
++ gradebook.php
++ teacher.php
++ report.php
++ account.php
+
+bg=blue
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>477</x>
+      <y>378</y>
+      <w>117</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;110.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>81</y>
+      <w>99</w>
+      <h>585</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;630.0;90.0;630.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>306</x>
+      <y>612</y>
+      <w>153</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+
+[Migration]
++ attandance 
++ academic_years
++ default
++ district
++ grade
++ institution
++ instituton_type
++ parent
++ period
++ province
++ skill
++ student
++ student_enroll
++ student_transfer
++ subject
++ subject_enroll
++ subject_schedule
++ sub_district
++ sub_subject
++ teacher
++ teacher_assistent
++ term
++ message
++ userlogin
++ userinfo
+
+bg=red
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
